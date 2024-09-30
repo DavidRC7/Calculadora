@@ -1,7 +1,4 @@
-function dividir(a, b) {
-    if (b === 0) {
-        return "Error: división por cero";
-    }
-    return a / b;
+function sumar(a, b, c) {
+    return a + b + c;
 }
-console.log(dividir(6, 2));  
+console.log(sumar(3, 2, 1));  
