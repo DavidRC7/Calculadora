@@ -1,4 +1,7 @@
-function restar(a, b) {
-    return a - b;
+function dividir(a, b) {
+    if (b === 0) {
+        return "Error: división por cero";
+    }
+    return a / b;
 }
-console.log(restar(5, 3));
+console.log(dividir(6, 2));  
