@@ -1,4 +1,4 @@
-function restar(a, b) {
-    return a - b;
+function multiplicar(a, b) {
+    return a * b;
 }
-console.log(restar(5, 3));
+console.log(multiplicar(5, 3));
